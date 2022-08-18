@@ -11,7 +11,7 @@ function useCounter(props) {
       return () => clearInterval(interval);
     }, []);
 
-  return <div></div>;
+    return counter;
 }
 
 export default useCounter;
